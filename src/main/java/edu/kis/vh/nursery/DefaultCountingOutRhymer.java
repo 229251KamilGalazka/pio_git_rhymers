@@ -36,3 +36,5 @@ public class DefaultCountingOutRhymer {
 	}
 
 }
+
+//brak nieużywanych setterów
