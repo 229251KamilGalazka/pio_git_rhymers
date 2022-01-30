@@ -6,7 +6,11 @@ public class DefaultCountingOutRhymer {
 	public static final int ERROR_CODE = -1;
 
 	private final int[] numbers = new int[ARRAY_SIZE];
-	public int total = ERROR_CODE;
+	private int total = ERROR_CODE;
+  
+  public int getTotal() {
+		return total;
+	}
 
 	public void countIn(int in) {
 		if (!isFull())
@@ -34,3 +38,5 @@ public class DefaultCountingOutRhymer {
 	}
 //pr
 }
+
+//brak nieużywanych setterów
